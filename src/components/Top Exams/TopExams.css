@@ -1,0 +1,19 @@
+.top-container {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-container {
+    width:100px;
+    height: auto;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 30px;
+    margin-left: 95px;
+    text-align: center;
+}
