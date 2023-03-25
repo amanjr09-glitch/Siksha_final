@@ -9,7 +9,7 @@ const Navbar = () => {
       <ul className="navbar-lists">
      
       </ul>
-      <input placeholder="Search" />
+      {/* <input placeholder="Search" /> */}
     </div>
    
   </div>

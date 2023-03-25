@@ -1,0 +1,26 @@
+.scholarship-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.scholarship-card-content {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.scholarship-card h3 {
+  margin-top: 0;
+}
+
+.scholarship-card p {
+  margin-bottom: 0;
+}
+
+.scholarship-card a {
+  color: #0077cc;
+  text-decoration: none;
+}

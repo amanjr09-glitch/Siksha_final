@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Explorescholarship from './components/Explore Scholarship/Explorescholarship'
 import Header from './components/Header/Header'
+import TopUniveristy from './components/TopUniversity'
+import ExploreScholarship from './components/ExploreScholarship'
+import SliderWebinar from './components/SliderWebinar'
 import SliderPop from './components/Popular Courses/SliderPop'
-import SliderWeb from './components/Slider Webinar/SliderWeb'
 import Slider from './components/Slider/Slider'
 import Slider2 from './components/Slider2/Slider2'
 import SliderTop from './components/Top colleges/SliderTop'
@@ -15,15 +16,15 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-        <Slider />
-        <SliderTop />
-        <SliderWeb />
-        <SliderPop/>
-        <Video />
-        <Explorescholarship />
-        <Slider2 />
+        <TopUniveristy/>
+        {/* <SliderTop /> */}
+        <SliderWebinar/>
+        {/* <SliderPop/> */}
+        {/* <Video /> */}
+        <ExploreScholarship />
+        {/* <Slider2 /> */}
         <TopExams />
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

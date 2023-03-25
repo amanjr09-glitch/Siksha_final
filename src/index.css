@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.heading{
+  padding: 2rem 3rem;
+}
+
+.cards {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.card-slider {
+  max-width: 30.333%;
+  border: 0;
+  flex-basis: 30.333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
