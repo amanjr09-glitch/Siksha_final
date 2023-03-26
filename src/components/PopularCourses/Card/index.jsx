@@ -4,7 +4,7 @@ import './index.css'
 const Card = () => {
     return (
         <div class="course-card card-slider">
-            <img src="https://media.istockphoto.com/id/1176842849/photo/over-the-shoulder-shot-of-engineer-working-with-cad-software-on-desktop-computer-screen-shows.jpg?s=612x612&w=0&k=20&c=7eQF_06OsuB5zEOIiRDDhyAHRgbo6QSezbAejr1XXf8=" alt="[Image Description]" />
+            <img src="https://media.istockphoto.com/id/1176842849/photo/over-the-shoulder-shot-of-engineer-working-with-cad-software-on-desktop-computer-screen-shows.jpg?s=612x612&w=0&k=20&c=7eQF_06OsuB5zEOIiRDDhyAHRgbo6QSezbAejr1XXf8=" alt="not-found" />
             <div>
                 <h2>Engineering</h2>
                 <p><strong>Colleges Offering the Course:</strong> 300</p>
