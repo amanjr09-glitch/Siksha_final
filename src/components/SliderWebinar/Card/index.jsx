@@ -3,8 +3,9 @@ import './index.css'
 
 const Card = () => {
     return (
-        <div class="web-card">
+        <div class="web-card card-slider">
             <h2>Introduction to HTML and CSS</h2>
+            <hr />
             <p><strong>Mode of Conduct:</strong> Online</p>
             <p><strong>Date:</strong> 5th April 2023</p>
             <p><strong>Time:</strong> 2:00 PM - 4:00 PM</p>
